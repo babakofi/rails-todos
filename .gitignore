@@ -5,3 +5,4 @@ log
 .loadpath
 .project
 textmate.tmproj
+.DS_Store
