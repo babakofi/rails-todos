@@ -1,0 +1,13 @@
+railroad -a -i -l -o full_models.dot -M
+railroad -a -i -l -M | dot -Tsvg > full_models.svg
+railroad -a -i -l -M | dot -Tpng > full_models.png
+
+railroad -a -i -l -o full_controllers.dot -C
+railroad -a -i -l -C | dot -Tsvg > full_controllers.svg
+railroad -a -i -l -C | dot -Tpng > full_controllers.png
+
+
+railroad -a -i -l -o full_statemachine.dot -A
+railroad -a -i -l -A | dot -Tsvg > full_statemachine.svg
+railroad -a -i -l -A | dot -Tpng > full_statemachine.png
+

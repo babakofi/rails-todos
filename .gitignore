@@ -2,3 +2,6 @@ frameworks/sproutcore
 public
 tmp
 log
+.loadpath
+.project
+textmate.tmproj
